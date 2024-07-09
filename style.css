@@ -1,0 +1,111 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    
+    background-color: hsl(0, 0%, 8%);
+
+}
+
+img {
+    border: 1px solid white;
+    border-radius: 50%;
+    max-width: 80px;
+}
+
+.Jess_white{
+    color: white;
+}
+
+.Jess_lightgreen{
+    padding-top: 5px;
+    color: hsl(75, 94%, 57%);
+}
+
+.Jess_whitesmall{
+    padding-top: 20px;;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: lighter;
+}
+.main_container{
+    /* background-color: red; */
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.contianer {
+    background-color: hsl(0, 0%, 12%);
+    width: 90%;
+    height: 50%;
+    display: grid;
+    place-items: center;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+.list {
+    background-color: hsl(0, 0%, 8%);
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+}
+
+
+.list_container{
+    padding-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    width: 40vw;
+    margin: 10px;
+}
+.list_one, .list_two, .list_theree, .list_four, .list_five {
+    background-color: hsl(0, 0%, 30%);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.list_one:hover, .list_two:hover, .list_theree:hover, .list_four:hover, .list_five:hover{
+    background-color: hsl(75, 94%, 57%);
+    color: black;
+    cursor: pointer;
+}
+
+.linkes{
+    color: white;
+    text-decoration: none;
+    /* border: 3px solid red; */
+    width: 100%;
+    background-color: hsl(0, 0%, 30%);
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.linkes:hover{
+    background-color: hsl(75, 94%, 57%);
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.attribution {
+    margin: 10px;
+    color: white;
+}
+
